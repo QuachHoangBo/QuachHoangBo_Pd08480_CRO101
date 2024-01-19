@@ -16,11 +16,20 @@ const App = () => {
   );
 };
 const styles = StyleSheet.create({
+  container: {
+    flexDirection: "row",
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "10px",
+  },
   hop1: {
+    backgroundColor: "blue",
     width: "50%",
     height: "50px",
   },
   hop2: {
+    backgroundColor: "red",
     width: "50%",
     height: "50px",
   },
