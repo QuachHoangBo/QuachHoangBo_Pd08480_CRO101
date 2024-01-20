@@ -1,7 +1,7 @@
 import React from "react";
 // sãi cái gì thì phải import cái đó
 // những import cơ bản để làm việc
-import Lab4 from "./src/lab4/app.js";
+import Lab3 from "./src/lab3/app.js";
 export default function App() {
-  return <Lab4 />;
+  return <Lab3 />;
 }
