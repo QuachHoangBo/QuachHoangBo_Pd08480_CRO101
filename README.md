@@ -1,5 +1,6 @@
 # QuachHoangBo_pd08480_CRO101
 
+All Labs in file "src" <br/>
 Giáo viên thầy Tính
 
 - Tiến độ làm việc
@@ -13,6 +14,6 @@ Giáo viên thầy Tính
 * lab 7 (waiting)
 * lab 8 (waiting)
 
-=o:> AssignmentGD1 (working)
+=o:> AssignmentGD1 (waiting)
 =o:> AssignmentGD2 (waiting)
 =o:> Assignment Final (waiting)
