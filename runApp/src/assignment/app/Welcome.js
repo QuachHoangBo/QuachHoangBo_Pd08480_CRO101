@@ -2,7 +2,6 @@ import React from "react";
 import { StatusBar } from "expo-status-bar";
 import {
   SafeAreaView,
-  View,
   StyleSheet,
   Text,
   Image,
@@ -10,37 +9,52 @@ import {
 } from "react-native";
 
 const App = () => {
-  <SafeAreaView>
-    <View style={styles.container}>
+  return (
+    <SafeAreaView style={styles.container}>
       <Image
         // eslint-disable-next-line no-undef
         source={require("../img/welcome.png")}
-        style={{ width: "80%", height: "auto" }}
+        style={{ width: "90vw", height: "50vw" }}
       />
-      <Text>
+      <Text
+        style={{ fontSize: "10vw", fontWeight: "bold", textAlign: "center" }}
+      >
         {" "}
         You&#39;ll Find <br />{" "}
-        <Text style={{ color: "gold" }}>All Your Needs</Text> <br /> Here!
+        <Text style={{ color: "#FCA34D", textDecorationLine: "underline" }}>
+          All Your Needs
+        </Text>{" "}
+        <br /> Here!
       </Text>
-      <TouchableOpacity style={{ backgroundColor: "gold", padding: 10 }}>
-        <Text style={{ textAlign: "center", fontWeight: "bold", fontSize: 20 }}>
+      <TouchableOpacity
+        style={{
+          backgroundColor: "#4F63AC",
+          padding: 10,
+          paddingLeft: 20,
+          paddingRight: 20,
+        }}
+      >
+        <Text
+          style={{ textAlign: "center", fontWeight: "bold", fontSize: "7vw" }}
+        >
           Get Started
         </Text>
       </TouchableOpacity>
 
       <StatusBar style="auto" />
-    </View>
-  </SafeAreaView>;
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 3,
-    backgroundColor: "pink",
+    backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-evenly",
     padding: 20,
     paddingTop: 50,
+    width: "100%",
   },
 });
 

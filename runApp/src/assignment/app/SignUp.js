@@ -14,7 +14,7 @@ import {
 
 const App = () => {
   const [name, setName] = useState("");
-
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isChecked, setIsChecked] = useState(false);
 
@@ -33,7 +33,7 @@ const App = () => {
           style={styles.logo}
           source={require("../img/arrowLeftBlack.png")}
         />
-        <Text style={styles.title}>Sign In</Text>
+        <Text style={styles.title}>Sign Up</Text>
       </TouchableOpacity>
 
       <View style={styles.form}>
@@ -42,6 +42,13 @@ const App = () => {
           placeholder="YourName..."
           value={name}
           onChangeText={setName}
+          style={styles.input}
+        />
+        <Text style={{ color: "#4F63AC" }}>Email</Text>
+        <TextInput
+          placeholder="example@gmail.com"
+          value={email}
+          onChangeText={setEmail}
           style={styles.input}
         />
         <Text style={{ color: "#4F63AC" }}>Password</Text>
@@ -71,7 +78,7 @@ const App = () => {
         }}
       >
         <Text style={{ fontWeight: "bold", color: "white", fontSize: 16 }}>
-          Sign In
+          Sign Up
         </Text>
       </TouchableOpacity>
 
@@ -81,7 +88,7 @@ const App = () => {
         <Image style={styles.icon} source={require("../img/iconGG.png")} />
       </TouchableOpacity>
 
-      <Text style={styles.already}>Don&#39;t have an account? Sign Up</Text>
+      <Text style={styles.already}>Already have an account? Sign In</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -113,7 +120,7 @@ const styles = StyleSheet.create({
   },
   form: {
     width: 300,
-    height: 200,
+    height: 300,
     gap: 10,
   },
   input: {
