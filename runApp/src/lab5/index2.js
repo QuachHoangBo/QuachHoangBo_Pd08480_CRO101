@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
   infoTitle: {
     fontSize: 50,
     fontWeight: "bold",
+    color: "white",
   },
   infoRating: {
     fontSize: 20,
@@ -59,7 +60,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     padding: 20,
     margin: 10,
-    backgroundColor: "#0000ff",
+    backgroundColor: "blue",
+    borderRadius: 20,
   },
   price: {
     fontSize: 20,

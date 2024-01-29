@@ -30,7 +30,7 @@ const App = () => {
             <br />
             <Text style={styles.secondLine}>World with us</Text>
             <br />
-            <Text style={{ color: "white", fontSize: 20 }}>
+            <Text style={{ color: "white", fontSize: "5vw" }}>
               A gateway to new experiences
             </Text>
           </Text>
@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
     backgroundColor: "whitesmoke",
     alignItems: "center",
     justifyContent: "center",
+    // fontFamily: "Roboto-Black",
   },
   image: {
     width: "100%",
@@ -66,12 +67,12 @@ const styles = StyleSheet.create({
   },
   firstLine: {
     color: "white",
-    fontSize: 50,
+    fontSize: "10vw",
     fontWeight: "bold",
   },
   secondLine: {
     color: "white",
-    fontSize: 50,
+    fontSize: "10vw",
     fontWeight: "bold",
   },
   button: {
