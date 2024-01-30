@@ -2,7 +2,7 @@ import React from "react";
 
 // sãi cái gì thì phải import cái đó
 // những import cơ bản để làm việc
-import Lab3 from "./src/lab5/index2";
+import Lab3 from "./src/lab6/index";
 // import { AssetRegistry } from "expo";
 
 // const assetRegistry = AssetRegistry.getForRoot();
