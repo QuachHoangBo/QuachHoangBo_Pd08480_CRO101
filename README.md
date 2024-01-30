@@ -10,7 +10,7 @@ Giáo viên thầy Tính
 * lab 3 (done)
 * lab 4 (done)
 * lab 5 (done)
-* lab 6 (working)
+* lab 6 (done)
 * lab 7 (waiting)
 * lab 8 (waiting)
 
