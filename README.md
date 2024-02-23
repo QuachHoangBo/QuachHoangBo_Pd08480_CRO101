@@ -12,8 +12,8 @@ Giáo viên thầy Tính
 * lab 5 (done)
 * lab 6 (done)
 * lab 7 (done)
-* lab 8 (working)
+* lab 8 (done)
 
 =o:> AssignmentGD1 (done)
-=o:> AssignmentGD2 (waiting)
-=o:> Assignment Final (waiting)
+=o:> AssignmentGD2 (!done)
+=o:> Assignment Final (!done)
